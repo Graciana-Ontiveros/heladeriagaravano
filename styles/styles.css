@@ -1,0 +1,52 @@
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgba(125, 125, 125,0.1);
+}
+
+h1 { 
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/* Menu de navegación */
+.navegacion ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* Footter */
+.footer a {
+    text-decoration: none;
+}
+
+.navegacion ul li a:hover {
+    color:goldenrod ;
+}
+
+.navegacion ul li {
+    list-style: none;
+    display: inline;
+}
+
+
+.contenedor__img {
+    width: 100%;
+    height: 300px;
+    background-image: url("../assets/baner.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
